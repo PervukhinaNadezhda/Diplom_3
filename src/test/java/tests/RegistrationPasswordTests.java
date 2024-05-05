@@ -37,8 +37,8 @@ public class RegistrationPasswordTests extends BaseTest {
     @Test
     @Description("Проверка ошибки для некорректного пароля на странице регистрации нового пользователя: " +
             "Устанавливается значение пароля. " +
-            "Ожидание появления лейбла 'Вход'. " +
-            "Проверяется переход на страницу 'Логин'.")
+            "Нажатие на кнопку 'Зарегистрироваться'. " +
+            "Проверяется наличие или отсутствие ошибки.")
     public void registrationPasswordTest() {
         driver.get(REGISTRATION_PAGE);
         RegistrationPage registrationPage = new RegistrationPage(driver);
