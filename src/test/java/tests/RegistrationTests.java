@@ -3,8 +3,8 @@ package tests;
 
 import io.qameta.allure.Description;
 import org.junit.Test;
-import pageObject.LoginPage;
-import pageObject.RegistrationPage;
+import pages.LoginPage;
+import pages.RegistrationPage;
 
 import static helper.ConstantURL.REGISTRATION_PAGE;
 

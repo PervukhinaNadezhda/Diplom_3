@@ -2,12 +2,11 @@ package tests;
 
 import io.qameta.allure.Description;
 import org.junit.Test;
-import pageObject.ConstructorPage;
-import pageObject.LoginPage;
-import pageObject.ProfilePage;
+import pages.ConstructorPage;
+import pages.LoginPage;
+import pages.ProfilePage;
 
 import static helper.ConstantURL.LOGIN_PAGE;
-import static helper.Waiter.waitFor;
 
 public class ProfileTests extends BaseTest {
 

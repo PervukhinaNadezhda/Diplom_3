@@ -4,10 +4,10 @@ import io.qameta.allure.Description;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import pageObject.ConstructorPage;
-import pageObject.ForgotPasswordPage;
-import pageObject.LoginPage;
-import pageObject.RegistrationPage;
+import pages.ConstructorPage;
+import pages.ForgotPasswordPage;
+import pages.LoginPage;
+import pages.RegistrationPage;
 
 import static helper.ConstantURL.*;
 

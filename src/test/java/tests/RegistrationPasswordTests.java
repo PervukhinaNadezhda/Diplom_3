@@ -5,7 +5,7 @@ import io.qameta.allure.Description;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import pageObject.RegistrationPage;
+import pages.RegistrationPage;
 
 import static helper.ConstantURL.REGISTRATION_PAGE;
 

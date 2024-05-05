@@ -2,7 +2,7 @@ package tests;
 
 import io.qameta.allure.Description;
 import org.junit.Test;
-import pageObject.ConstructorPage;
+import pages.ConstructorPage;
 
 import static helper.ConstantURL.CONSTRUCTOR_PAGE;
 import static helper.Waiter.waitFor;
